@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="glowG" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#16A34A"/>
+      <stop offset="100%" stop-color="#22C55E"/>
+    </linearGradient>
+    <linearGradient id="glowO" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="700" height="520" rx="24" fill="url(#heroBg)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <g stroke="#334155" stroke-width="1" opacity="0.25">
+    <line x1="0" y1="130" x2="700" y2="130"/>
+    <line x1="0" y1="260" x2="700" y2="260"/>
+    <line x1="0" y1="390" x2="700" y2="390"/>
+    <line x1="175" y1="0" x2="175" y2="520"/>
+    <line x1="350" y1="0" x2="350" y2="520"/>
+    <line x1="525" y1="0" x2="525" y2="520"/>
+  </g>
+
+  <!-- Big Decorative Glows -->
+  <circle cx="350" cy="260" r="160" fill="#16A34A" opacity="0.12"/>
+  <circle cx="500" cy="160" r="120" fill="#EA580C" opacity="0.08"/>
+
+  <!-- Center Card: Pan India Map & Community Ring -->
+  <g transform="translate(140, 60)">
+    <rect width="420" height="380" rx="20" fill="#1E293B" stroke="#334155" stroke-width="2"/>
+    
+    <!-- Top Bar -->
+    <rect x="25" y="25" width="370" height="48" rx="12" fill="#0F172A"/>
+    <circle cx="50" cy="49" r="6" fill="#EF4444"/>
+    <circle cx="70" cy="49" r="6" fill="#F59E0B"/>
+    <circle cx="90" cy="49" r="6" fill="#10B981"/>
+    <text x="210" y="55" font-family="'Inter', sans-serif" font-weight="600" font-size="13" fill="#94A3B8" text-anchor="middle">InAmigos Pan-India Mission Hub</text>
+
+    <!-- Visual Dashboard Cards -->
+    <!-- Mini Card 1: 50,000+ Meals -->
+    <rect x="25" y="90" width="175" height="110" rx="12" fill="#0F172A" stroke="#16A34A" stroke-width="1.5"/>
+    <text x="45" y="125" font-size="24">🍲</text>
+    <text x="45" y="155" font-family="'Inter', sans-serif" font-weight="800" font-size="20" fill="#22C55E">50,000+</text>
+    <text x="45" y="178" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#94A3B8">Meals Distributed</text>
+
+    <!-- Mini Card 2: 30,000+ Interns -->
+    <rect x="220" y="90" width="175" height="110" rx="12" fill="#0F172A" stroke="#3B82F6" stroke-width="1.5"/>
+    <text x="240" y="125" font-size="24">🎓</text>
+    <text x="240" y="155" font-family="'Inter', sans-serif" font-weight="800" font-size="20" fill="#60A5FA">30,000+</text>
+    <text x="240" y="178" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#94A3B8">Youth Upskilled</text>
+
+    <!-- Mini Card 3: 20,000+ Trees -->
+    <rect x="25" y="215" width="175" height="110" rx="12" fill="#0F172A" stroke="#10B981" stroke-width="1.5"/>
+    <text x="45" y="250" font-size="24">🌱</text>
+    <text x="45" y="280" font-family="'Inter', sans-serif" font-weight="800" font-size="20" fill="#34D399">20,000+</text>
+    <text x="45" y="303" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#94A3B8">Trees Sustained</text>
+
+    <!-- Mini Card 4: 28 States -->
+    <rect x="220" y="215" width="175" height="110" rx="12" fill="#0F172A" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="240" y="250" font-size="24">🇮🇳</text>
+    <text x="240" y="280" font-family="'Inter', sans-serif" font-weight="800" font-size="20" fill="#FBBF24">28 States</text>
+    <text x="240" y="303" font-family="'Inter', sans-serif" font-weight="500" font-size="12" fill="#94A3B8">National Outreach</text>
+
+    <!-- Status pill at bottom -->
+    <rect x="80" y="340" width="260" height="26" rx="13" fill="#16A34A" opacity="0.2"/>
+    <text x="210" y="357" font-family="'Inter', sans-serif" font-weight="600" font-size="11" fill="#4ADE80" text-anchor="middle">● Active Grassroots Community Operations</text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 375" width="100%" height="100%">
+  <defs>
+    <linearGradient id="jeevBg" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDF2F8"/>
+      <stop offset="100%" stop-color="#FCE7F3"/>
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#BE185D"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="375" fill="url(#jeevBg)"/>
+  <circle cx="500" cy="70" r="120" fill="#F472B6" opacity="0.15"/>
+  <circle cx="90" cy="300" r="100" fill="#DB2777" opacity="0.1"/>
+
+  <!-- Paw Print & Caring Hand & Collar Motif -->
+  <g transform="translate(190, 70)">
+    <!-- Big Heart -->
+    <path d="M110 50 C110 20, 70 20, 70 50 C70 85, 110 115, 110 115 C110 115, 150 85, 150 50 C150 20, 110 20, 110 50 Z" fill="url(#heartGrad)" opacity="0.25"/>
+
+    <!-- Stray Animal Paw Print -->
+    <!-- Main Pad -->
+    <ellipse cx="110" cy="140" rx="35" ry="28" fill="#BE185D"/>
+    <!-- 4 Toes -->
+    <ellipse cx="65" cy="100" rx="14" ry="18" fill="#BE185D" transform="rotate(-20 65 100)"/>
+    <ellipse cx="95" cy="80" rx="14" ry="19" fill="#BE185D" transform="rotate(-6 95 80)"/>
+    <ellipse cx="125" cy="80" rx="14" ry="19" fill="#BE185D" transform="rotate(6 125 80)"/>
+    <ellipse cx="155" cy="100" rx="14" ry="18" fill="#BE185D" transform="rotate(20 155 100)"/>
+
+    <!-- Reflective Safety Collar Belt -->
+    <rect x="40" y="185" width="140" height="24" rx="12" fill="#F59E0B" stroke="#D97706" stroke-width="2"/>
+    <rect x="70" y="190" width="80" height="14" rx="7" fill="#FDE047"/>
+    <circle cx="110" cy="197" r="5" fill="#DC2626"/>
+  </g>
+
+  <!-- Title & Hashtag -->
+  <rect x="40" y="295" width="220" height="42" rx="21" fill="#0F172A" opacity="0.9"/>
+  <text x="150" y="322" font-family="'Inter', sans-serif" font-weight="700" font-size="16" fill="#FFFFFF" text-anchor="middle">Project Jeev</text>
+  <rect x="270" y="295" width="180" height="42" rx="21" fill="#DB2777"/>
+  <text x="360" y="322" font-family="'Inter', sans-serif" font-weight="600" font-size="14" fill="#FFFFFF" text-anchor="middle">#PashuSeva</text>
+</svg>
